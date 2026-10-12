@@ -1,0 +1,1118 @@
+<?xml version='1.0' encoding='utf-8'?>
+<spriter_data scml_version="1.0" generator="BaiyeMembrane" generator_version="0.1.1">
+  <folder id="0">
+    <file id="0" name="frame_0.png" width="256" height="512" pivot_x="0.5" pivot_y="0.5" />
+    <file id="1" name="film_quiet_0.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5" />
+    <file id="2" name="film_quiet_1.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5" />
+    <file id="3" name="film_quiet_2.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5" />
+    <file id="4" name="film_quiet_3.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5" />
+    <file id="5" name="film_quiet_4.png" width="256" height="256" pivot_x="0.5" pivot_y="0.5" />
+    <file id="6" name="film_passage_0.png" width="256" height="512" pivot_x="0.5" pivot_y="0.5" />
+    <file id="7" name="film_passage_1.png" width="256" height="512" pivot_x="0.5" pivot_y="0.5" />
+    <file id="8" name="film_passage_2.png" width="256" height="512" pivot_x="0.5" pivot_y="0.5" />
+    <file id="9" name="film_passage_3.png" width="256" height="512" pivot_x="0.5" pivot_y="0.5" />
+    <file id="10" name="film_passage_4.png" width="256" height="512" pivot_x="0.5" pivot_y="0.5" />
+    <file id="11" name="clamp_left_0.png" width="256" height="40" pivot_x="0" pivot_y="0.5" />
+    <file id="12" name="clamp_right_0.png" width="256" height="40" pivot_x="1" pivot_y="0.5" />
+    <file id="13" name="join_west_lower_0.png" width="32" height="64" pivot_x="0.5" pivot_y="0.5" />
+    <file id="14" name="join_west_upper_0.png" width="32" height="64" pivot_x="0.5" pivot_y="0.5" />
+    <file id="15" name="join_east_lower_0.png" width="32" height="64" pivot_x="0.5" pivot_y="0.5" />
+    <file id="16" name="join_east_upper_0.png" width="32" height="64" pivot_x="0.5" pivot_y="0.5" />
+    <file id="17" name="join_south_0.png" width="64" height="32" pivot_x="0.5" pivot_y="0.5" />
+    <file id="18" name="join_north_0.png" width="64" height="32" pivot_x="0.5" pivot_y="0.5" />
+    <file id="19" name="status_0.png" width="24" height="64" pivot_x="0.5" pivot_y="0.5" />
+    <file id="20" name="flow_forward_0.png" width="16" height="16" pivot_x="0.5" pivot_y="0.5" />
+    <file id="21" name="flow_reverse_0.png" width="16" height="16" pivot_x="0.5" pivot_y="0.5" />
+    <file id="22" name="ui_0.png" width="128" height="128" pivot_x="0.5" pivot_y="0.5" />
+  </folder>
+  <entity id="0" name="baiye_membrane_door">
+    <animation id="0" name="closed" length="50" interval="50" looping="false">
+      <mainline>
+        <key id="0" time="0">
+          <object_ref id="0" timeline="0" key="0" z_index="0" />
+          <object_ref id="1" timeline="1" key="0" z_index="1" />
+          <object_ref id="2" timeline="2" key="0" z_index="2" />
+          <object_ref id="3" timeline="3" key="0" z_index="3" />
+          <object_ref id="4" timeline="4" key="0" z_index="4" />
+          <object_ref id="5" timeline="5" key="0" z_index="5" />
+          <object_ref id="6" timeline="6" key="0" z_index="6" />
+          <object_ref id="7" timeline="7" key="0" z_index="7" />
+          <object_ref id="8" timeline="8" key="0" z_index="8" />
+          <object_ref id="9" timeline="9" key="0" z_index="9" />
+          <object_ref id="10" timeline="10" key="0" z_index="10" />
+          <object_ref id="11" timeline="11" key="0" z_index="11" />
+          <object_ref id="12" timeline="12" key="0" z_index="12" />
+        </key>
+      </mainline>
+      <timeline id="0" name="film_quiet">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="5" x="0" y="100" scale_x="0.3125" scale_y="0.695312" />
+        </key>
+      </timeline>
+      <timeline id="1" name="frame">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="0" x="0" y="100" scale_x="0.390625" scale_y="0.390625" />
+        </key>
+      </timeline>
+      <timeline id="2" name="clamp_left">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="11" x="-36" y="100" scale_x="0.140625" scale_y="0.09" />
+        </key>
+      </timeline>
+      <timeline id="3" name="clamp_right">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="12" x="36" y="100" scale_x="0.140625" scale_y="0.09" />
+        </key>
+      </timeline>
+      <timeline id="4" name="join_west_lower">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="13" x="-46.48" y="50" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="5" name="join_west_upper">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="14" x="-46.48" y="150" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="6" name="join_east_lower">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="15" x="46.48" y="50" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="7" name="join_east_upper">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="16" x="46.48" y="150" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="8" name="join_south">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="17" x="0" y="3.52" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="9" name="join_north">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="18" x="0" y="196.48" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="10" name="status">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="19" x="41" y="138" scale_x="0.29" scale_y="0.42" />
+        </key>
+      </timeline>
+      <timeline id="11" name="flow_forward">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="20" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="12" name="flow_reverse">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="21" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+    </animation>
+    <animation id="1" name="open" length="50" interval="50" looping="false">
+      <mainline>
+        <key id="0" time="0">
+          <object_ref id="0" timeline="0" key="0" z_index="0" />
+          <object_ref id="1" timeline="1" key="0" z_index="1" />
+          <object_ref id="2" timeline="2" key="0" z_index="2" />
+          <object_ref id="3" timeline="3" key="0" z_index="3" />
+          <object_ref id="4" timeline="4" key="0" z_index="4" />
+          <object_ref id="5" timeline="5" key="0" z_index="5" />
+          <object_ref id="6" timeline="6" key="0" z_index="6" />
+          <object_ref id="7" timeline="7" key="0" z_index="7" />
+          <object_ref id="8" timeline="8" key="0" z_index="8" />
+          <object_ref id="9" timeline="9" key="0" z_index="9" />
+          <object_ref id="10" timeline="10" key="0" z_index="10" />
+        </key>
+      </mainline>
+      <timeline id="0" name="film_passage">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="10" x="0" y="100" scale_x="0.3125" scale_y="0.347656" />
+        </key>
+      </timeline>
+      <timeline id="1" name="frame">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="0" x="0" y="100" scale_x="0.390625" scale_y="0.390625" />
+        </key>
+      </timeline>
+      <timeline id="2" name="join_west_lower">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="13" x="-46.48" y="50" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="3" name="join_west_upper">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="14" x="-46.48" y="150" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="4" name="join_east_lower">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="15" x="46.48" y="50" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="5" name="join_east_upper">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="16" x="46.48" y="150" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="6" name="join_south">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="17" x="0" y="3.52" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="7" name="join_north">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="18" x="0" y="196.48" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="8" name="status">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="19" x="41" y="138" scale_x="0.29" scale_y="0.42" />
+        </key>
+      </timeline>
+      <timeline id="9" name="flow_forward">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="20" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="10" name="flow_reverse">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="21" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+    </animation>
+    <animation id="2" name="opening" length="300" interval="50" looping="false">
+      <mainline>
+        <key id="0" time="0">
+          <object_ref id="0" timeline="0" key="0" z_index="0" />
+          <object_ref id="1" timeline="1" key="0" z_index="1" />
+          <object_ref id="2" timeline="2" key="0" z_index="2" />
+          <object_ref id="3" timeline="3" key="0" z_index="3" />
+          <object_ref id="4" timeline="4" key="0" z_index="4" />
+          <object_ref id="5" timeline="5" key="0" z_index="5" />
+          <object_ref id="6" timeline="6" key="0" z_index="6" />
+          <object_ref id="7" timeline="7" key="0" z_index="7" />
+          <object_ref id="8" timeline="8" key="0" z_index="8" />
+          <object_ref id="9" timeline="9" key="0" z_index="9" />
+          <object_ref id="10" timeline="10" key="0" z_index="10" />
+          <object_ref id="11" timeline="11" key="0" z_index="11" />
+          <object_ref id="12" timeline="12" key="0" z_index="12" />
+        </key>
+        <key id="1" time="50">
+          <object_ref id="0" timeline="0" key="1" z_index="0" />
+          <object_ref id="1" timeline="13" key="0" z_index="1" />
+          <object_ref id="2" timeline="1" key="1" z_index="2" />
+          <object_ref id="3" timeline="2" key="1" z_index="3" />
+          <object_ref id="4" timeline="3" key="1" z_index="4" />
+          <object_ref id="5" timeline="4" key="1" z_index="5" />
+          <object_ref id="6" timeline="5" key="1" z_index="6" />
+          <object_ref id="7" timeline="6" key="1" z_index="7" />
+          <object_ref id="8" timeline="7" key="1" z_index="8" />
+          <object_ref id="9" timeline="8" key="1" z_index="9" />
+          <object_ref id="10" timeline="9" key="1" z_index="10" />
+          <object_ref id="11" timeline="10" key="1" z_index="11" />
+          <object_ref id="12" timeline="11" key="1" z_index="12" />
+          <object_ref id="13" timeline="12" key="1" z_index="13" />
+        </key>
+        <key id="2" time="100">
+          <object_ref id="0" timeline="0" key="2" z_index="0" />
+          <object_ref id="1" timeline="13" key="1" z_index="1" />
+          <object_ref id="2" timeline="1" key="2" z_index="2" />
+          <object_ref id="3" timeline="2" key="2" z_index="3" />
+          <object_ref id="4" timeline="3" key="2" z_index="4" />
+          <object_ref id="5" timeline="4" key="2" z_index="5" />
+          <object_ref id="6" timeline="5" key="2" z_index="6" />
+          <object_ref id="7" timeline="6" key="2" z_index="7" />
+          <object_ref id="8" timeline="7" key="2" z_index="8" />
+          <object_ref id="9" timeline="8" key="2" z_index="9" />
+          <object_ref id="10" timeline="9" key="2" z_index="10" />
+          <object_ref id="11" timeline="10" key="2" z_index="11" />
+          <object_ref id="12" timeline="11" key="2" z_index="12" />
+          <object_ref id="13" timeline="12" key="2" z_index="13" />
+        </key>
+        <key id="3" time="150">
+          <object_ref id="0" timeline="0" key="3" z_index="0" />
+          <object_ref id="1" timeline="13" key="2" z_index="1" />
+          <object_ref id="2" timeline="1" key="3" z_index="2" />
+          <object_ref id="3" timeline="2" key="3" z_index="3" />
+          <object_ref id="4" timeline="3" key="3" z_index="4" />
+          <object_ref id="5" timeline="4" key="3" z_index="5" />
+          <object_ref id="6" timeline="5" key="3" z_index="6" />
+          <object_ref id="7" timeline="6" key="3" z_index="7" />
+          <object_ref id="8" timeline="7" key="3" z_index="8" />
+          <object_ref id="9" timeline="8" key="3" z_index="9" />
+          <object_ref id="10" timeline="9" key="3" z_index="10" />
+          <object_ref id="11" timeline="10" key="3" z_index="11" />
+          <object_ref id="12" timeline="11" key="3" z_index="12" />
+          <object_ref id="13" timeline="12" key="3" z_index="13" />
+        </key>
+        <key id="4" time="200">
+          <object_ref id="0" timeline="0" key="4" z_index="0" />
+          <object_ref id="1" timeline="13" key="3" z_index="1" />
+          <object_ref id="2" timeline="1" key="4" z_index="2" />
+          <object_ref id="3" timeline="2" key="4" z_index="3" />
+          <object_ref id="4" timeline="3" key="4" z_index="4" />
+          <object_ref id="5" timeline="4" key="4" z_index="5" />
+          <object_ref id="6" timeline="5" key="4" z_index="6" />
+          <object_ref id="7" timeline="6" key="4" z_index="7" />
+          <object_ref id="8" timeline="7" key="4" z_index="8" />
+          <object_ref id="9" timeline="8" key="4" z_index="9" />
+          <object_ref id="10" timeline="9" key="4" z_index="10" />
+          <object_ref id="11" timeline="10" key="4" z_index="11" />
+          <object_ref id="12" timeline="11" key="4" z_index="12" />
+          <object_ref id="13" timeline="12" key="4" z_index="13" />
+        </key>
+        <key id="5" time="250">
+          <object_ref id="0" timeline="13" key="4" z_index="0" />
+          <object_ref id="1" timeline="1" key="5" z_index="1" />
+          <object_ref id="2" timeline="4" key="5" z_index="2" />
+          <object_ref id="3" timeline="5" key="5" z_index="3" />
+          <object_ref id="4" timeline="6" key="5" z_index="4" />
+          <object_ref id="5" timeline="7" key="5" z_index="5" />
+          <object_ref id="6" timeline="8" key="5" z_index="6" />
+          <object_ref id="7" timeline="9" key="5" z_index="7" />
+          <object_ref id="8" timeline="10" key="5" z_index="8" />
+          <object_ref id="9" timeline="11" key="5" z_index="9" />
+          <object_ref id="10" timeline="12" key="5" z_index="10" />
+        </key>
+      </mainline>
+      <timeline id="0" name="film_quiet">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="5" x="0" y="100" scale_x="0.3125" scale_y="0.695312" />
+        </key>
+        <key id="1" time="50" curve_type="instant">
+          <object folder="0" file="4" x="0" y="100" scale_x="0.3125" scale_y="0.695312" />
+        </key>
+        <key id="2" time="100" curve_type="instant">
+          <object folder="0" file="3" x="0" y="100" scale_x="0.3125" scale_y="0.695312" />
+        </key>
+        <key id="3" time="150" curve_type="instant">
+          <object folder="0" file="2" x="0" y="100" scale_x="0.3125" scale_y="0.695312" />
+        </key>
+        <key id="4" time="200" curve_type="instant">
+          <object folder="0" file="1" x="0" y="100" scale_x="0.3125" scale_y="0.695312" />
+        </key>
+      </timeline>
+      <timeline id="1" name="frame">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="0" x="0" y="100" scale_x="0.390625" scale_y="0.390625" />
+        </key>
+        <key id="1" time="50" curve_type="instant">
+          <object folder="0" file="0" x="0" y="100" scale_x="0.390625" scale_y="0.390625" />
+        </key>
+        <key id="2" time="100" curve_type="instant">
+          <object folder="0" file="0" x="0" y="100" scale_x="0.390625" scale_y="0.390625" />
+        </key>
+        <key id="3" time="150" curve_type="instant">
+          <object folder="0" file="0" x="0" y="100" scale_x="0.390625" scale_y="0.390625" />
+        </key>
+        <key id="4" time="200" curve_type="instant">
+          <object folder="0" file="0" x="0" y="100" scale_x="0.390625" scale_y="0.390625" />
+        </key>
+        <key id="5" time="250" curve_type="instant">
+          <object folder="0" file="0" x="0" y="100" scale_x="0.390625" scale_y="0.390625" />
+        </key>
+      </timeline>
+      <timeline id="2" name="clamp_left">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="11" x="-36" y="100" scale_x="0.140625" scale_y="0.09" />
+        </key>
+        <key id="1" time="50" curve_type="instant">
+          <object folder="0" file="11" x="-36" y="100" scale_x="0.1125" scale_y="0.09" />
+        </key>
+        <key id="2" time="100" curve_type="instant">
+          <object folder="0" file="11" x="-36" y="100" scale_x="0.084375" scale_y="0.09" />
+        </key>
+        <key id="3" time="150" curve_type="instant">
+          <object folder="0" file="11" x="-36" y="100" scale_x="0.05625" scale_y="0.09" />
+        </key>
+        <key id="4" time="200" curve_type="instant">
+          <object folder="0" file="11" x="-36" y="100" scale_x="0.028125" scale_y="0.09" />
+        </key>
+      </timeline>
+      <timeline id="3" name="clamp_right">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="12" x="36" y="100" scale_x="0.140625" scale_y="0.09" />
+        </key>
+        <key id="1" time="50" curve_type="instant">
+          <object folder="0" file="12" x="36" y="100" scale_x="0.1125" scale_y="0.09" />
+        </key>
+        <key id="2" time="100" curve_type="instant">
+          <object folder="0" file="12" x="36" y="100" scale_x="0.084375" scale_y="0.09" />
+        </key>
+        <key id="3" time="150" curve_type="instant">
+          <object folder="0" file="12" x="36" y="100" scale_x="0.05625" scale_y="0.09" />
+        </key>
+        <key id="4" time="200" curve_type="instant">
+          <object folder="0" file="12" x="36" y="100" scale_x="0.028125" scale_y="0.09" />
+        </key>
+      </timeline>
+      <timeline id="4" name="join_west_lower">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="13" x="-46.48" y="50" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="1" time="50" curve_type="instant">
+          <object folder="0" file="13" x="-46.48" y="50" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="2" time="100" curve_type="instant">
+          <object folder="0" file="13" x="-46.48" y="50" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="3" time="150" curve_type="instant">
+          <object folder="0" file="13" x="-46.48" y="50" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="4" time="200" curve_type="instant">
+          <object folder="0" file="13" x="-46.48" y="50" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="5" time="250" curve_type="instant">
+          <object folder="0" file="13" x="-46.48" y="50" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="5" name="join_west_upper">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="14" x="-46.48" y="150" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="1" time="50" curve_type="instant">
+          <object folder="0" file="14" x="-46.48" y="150" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="2" time="100" curve_type="instant">
+          <object folder="0" file="14" x="-46.48" y="150" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="3" time="150" curve_type="instant">
+          <object folder="0" file="14" x="-46.48" y="150" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="4" time="200" curve_type="instant">
+          <object folder="0" file="14" x="-46.48" y="150" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="5" time="250" curve_type="instant">
+          <object folder="0" file="14" x="-46.48" y="150" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="6" name="join_east_lower">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="15" x="46.48" y="50" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="1" time="50" curve_type="instant">
+          <object folder="0" file="15" x="46.48" y="50" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="2" time="100" curve_type="instant">
+          <object folder="0" file="15" x="46.48" y="50" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="3" time="150" curve_type="instant">
+          <object folder="0" file="15" x="46.48" y="50" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="4" time="200" curve_type="instant">
+          <object folder="0" file="15" x="46.48" y="50" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="5" time="250" curve_type="instant">
+          <object folder="0" file="15" x="46.48" y="50" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="7" name="join_east_upper">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="16" x="46.48" y="150" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="1" time="50" curve_type="instant">
+          <object folder="0" file="16" x="46.48" y="150" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="2" time="100" curve_type="instant">
+          <object folder="0" file="16" x="46.48" y="150" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="3" time="150" curve_type="instant">
+          <object folder="0" file="16" x="46.48" y="150" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="4" time="200" curve_type="instant">
+          <object folder="0" file="16" x="46.48" y="150" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="5" time="250" curve_type="instant">
+          <object folder="0" file="16" x="46.48" y="150" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="8" name="join_south">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="17" x="0" y="3.52" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="1" time="50" curve_type="instant">
+          <object folder="0" file="17" x="0" y="3.52" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="2" time="100" curve_type="instant">
+          <object folder="0" file="17" x="0" y="3.52" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="3" time="150" curve_type="instant">
+          <object folder="0" file="17" x="0" y="3.52" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="4" time="200" curve_type="instant">
+          <object folder="0" file="17" x="0" y="3.52" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="5" time="250" curve_type="instant">
+          <object folder="0" file="17" x="0" y="3.52" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="9" name="join_north">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="18" x="0" y="196.48" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="1" time="50" curve_type="instant">
+          <object folder="0" file="18" x="0" y="196.48" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="2" time="100" curve_type="instant">
+          <object folder="0" file="18" x="0" y="196.48" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="3" time="150" curve_type="instant">
+          <object folder="0" file="18" x="0" y="196.48" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="4" time="200" curve_type="instant">
+          <object folder="0" file="18" x="0" y="196.48" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="5" time="250" curve_type="instant">
+          <object folder="0" file="18" x="0" y="196.48" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="10" name="status">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="19" x="41" y="138" scale_x="0.29" scale_y="0.42" />
+        </key>
+        <key id="1" time="50" curve_type="instant">
+          <object folder="0" file="19" x="41" y="138" scale_x="0.29" scale_y="0.42" />
+        </key>
+        <key id="2" time="100" curve_type="instant">
+          <object folder="0" file="19" x="41" y="138" scale_x="0.29" scale_y="0.42" />
+        </key>
+        <key id="3" time="150" curve_type="instant">
+          <object folder="0" file="19" x="41" y="138" scale_x="0.29" scale_y="0.42" />
+        </key>
+        <key id="4" time="200" curve_type="instant">
+          <object folder="0" file="19" x="41" y="138" scale_x="0.29" scale_y="0.42" />
+        </key>
+        <key id="5" time="250" curve_type="instant">
+          <object folder="0" file="19" x="41" y="138" scale_x="0.29" scale_y="0.42" />
+        </key>
+      </timeline>
+      <timeline id="11" name="flow_forward">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="20" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="1" time="50" curve_type="instant">
+          <object folder="0" file="20" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="2" time="100" curve_type="instant">
+          <object folder="0" file="20" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="3" time="150" curve_type="instant">
+          <object folder="0" file="20" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="4" time="200" curve_type="instant">
+          <object folder="0" file="20" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="5" time="250" curve_type="instant">
+          <object folder="0" file="20" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="12" name="flow_reverse">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="21" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="1" time="50" curve_type="instant">
+          <object folder="0" file="21" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="2" time="100" curve_type="instant">
+          <object folder="0" file="21" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="3" time="150" curve_type="instant">
+          <object folder="0" file="21" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="4" time="200" curve_type="instant">
+          <object folder="0" file="21" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="5" time="250" curve_type="instant">
+          <object folder="0" file="21" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="13" name="film_passage">
+        <key id="0" time="50" curve_type="instant">
+          <object folder="0" file="6" x="0" y="100" scale_x="0.3125" scale_y="0.347656" />
+        </key>
+        <key id="1" time="100" curve_type="instant">
+          <object folder="0" file="7" x="0" y="100" scale_x="0.3125" scale_y="0.347656" />
+        </key>
+        <key id="2" time="150" curve_type="instant">
+          <object folder="0" file="8" x="0" y="100" scale_x="0.3125" scale_y="0.347656" />
+        </key>
+        <key id="3" time="200" curve_type="instant">
+          <object folder="0" file="9" x="0" y="100" scale_x="0.3125" scale_y="0.347656" />
+        </key>
+        <key id="4" time="250" curve_type="instant">
+          <object folder="0" file="10" x="0" y="100" scale_x="0.3125" scale_y="0.347656" />
+        </key>
+      </timeline>
+    </animation>
+    <animation id="3" name="closing" length="300" interval="50" looping="false">
+      <mainline>
+        <key id="0" time="0">
+          <object_ref id="0" timeline="0" key="0" z_index="0" />
+          <object_ref id="1" timeline="1" key="0" z_index="1" />
+          <object_ref id="2" timeline="2" key="0" z_index="2" />
+          <object_ref id="3" timeline="3" key="0" z_index="3" />
+          <object_ref id="4" timeline="4" key="0" z_index="4" />
+          <object_ref id="5" timeline="5" key="0" z_index="5" />
+          <object_ref id="6" timeline="6" key="0" z_index="6" />
+          <object_ref id="7" timeline="7" key="0" z_index="7" />
+          <object_ref id="8" timeline="8" key="0" z_index="8" />
+          <object_ref id="9" timeline="9" key="0" z_index="9" />
+          <object_ref id="10" timeline="10" key="0" z_index="10" />
+        </key>
+        <key id="1" time="50">
+          <object_ref id="0" timeline="11" key="0" z_index="0" />
+          <object_ref id="1" timeline="0" key="1" z_index="1" />
+          <object_ref id="2" timeline="1" key="1" z_index="2" />
+          <object_ref id="3" timeline="12" key="0" z_index="3" />
+          <object_ref id="4" timeline="13" key="0" z_index="4" />
+          <object_ref id="5" timeline="2" key="1" z_index="5" />
+          <object_ref id="6" timeline="3" key="1" z_index="6" />
+          <object_ref id="7" timeline="4" key="1" z_index="7" />
+          <object_ref id="8" timeline="5" key="1" z_index="8" />
+          <object_ref id="9" timeline="6" key="1" z_index="9" />
+          <object_ref id="10" timeline="7" key="1" z_index="10" />
+          <object_ref id="11" timeline="8" key="1" z_index="11" />
+          <object_ref id="12" timeline="9" key="1" z_index="12" />
+          <object_ref id="13" timeline="10" key="1" z_index="13" />
+        </key>
+        <key id="2" time="100">
+          <object_ref id="0" timeline="11" key="1" z_index="0" />
+          <object_ref id="1" timeline="0" key="2" z_index="1" />
+          <object_ref id="2" timeline="1" key="2" z_index="2" />
+          <object_ref id="3" timeline="12" key="1" z_index="3" />
+          <object_ref id="4" timeline="13" key="1" z_index="4" />
+          <object_ref id="5" timeline="2" key="2" z_index="5" />
+          <object_ref id="6" timeline="3" key="2" z_index="6" />
+          <object_ref id="7" timeline="4" key="2" z_index="7" />
+          <object_ref id="8" timeline="5" key="2" z_index="8" />
+          <object_ref id="9" timeline="6" key="2" z_index="9" />
+          <object_ref id="10" timeline="7" key="2" z_index="10" />
+          <object_ref id="11" timeline="8" key="2" z_index="11" />
+          <object_ref id="12" timeline="9" key="2" z_index="12" />
+          <object_ref id="13" timeline="10" key="2" z_index="13" />
+        </key>
+        <key id="3" time="150">
+          <object_ref id="0" timeline="11" key="2" z_index="0" />
+          <object_ref id="1" timeline="0" key="3" z_index="1" />
+          <object_ref id="2" timeline="1" key="3" z_index="2" />
+          <object_ref id="3" timeline="12" key="2" z_index="3" />
+          <object_ref id="4" timeline="13" key="2" z_index="4" />
+          <object_ref id="5" timeline="2" key="3" z_index="5" />
+          <object_ref id="6" timeline="3" key="3" z_index="6" />
+          <object_ref id="7" timeline="4" key="3" z_index="7" />
+          <object_ref id="8" timeline="5" key="3" z_index="8" />
+          <object_ref id="9" timeline="6" key="3" z_index="9" />
+          <object_ref id="10" timeline="7" key="3" z_index="10" />
+          <object_ref id="11" timeline="8" key="3" z_index="11" />
+          <object_ref id="12" timeline="9" key="3" z_index="12" />
+          <object_ref id="13" timeline="10" key="3" z_index="13" />
+        </key>
+        <key id="4" time="200">
+          <object_ref id="0" timeline="11" key="3" z_index="0" />
+          <object_ref id="1" timeline="0" key="4" z_index="1" />
+          <object_ref id="2" timeline="1" key="4" z_index="2" />
+          <object_ref id="3" timeline="12" key="3" z_index="3" />
+          <object_ref id="4" timeline="13" key="3" z_index="4" />
+          <object_ref id="5" timeline="2" key="4" z_index="5" />
+          <object_ref id="6" timeline="3" key="4" z_index="6" />
+          <object_ref id="7" timeline="4" key="4" z_index="7" />
+          <object_ref id="8" timeline="5" key="4" z_index="8" />
+          <object_ref id="9" timeline="6" key="4" z_index="9" />
+          <object_ref id="10" timeline="7" key="4" z_index="10" />
+          <object_ref id="11" timeline="8" key="4" z_index="11" />
+          <object_ref id="12" timeline="9" key="4" z_index="12" />
+          <object_ref id="13" timeline="10" key="4" z_index="13" />
+        </key>
+        <key id="5" time="250">
+          <object_ref id="0" timeline="11" key="4" z_index="0" />
+          <object_ref id="1" timeline="1" key="5" z_index="1" />
+          <object_ref id="2" timeline="12" key="4" z_index="2" />
+          <object_ref id="3" timeline="13" key="4" z_index="3" />
+          <object_ref id="4" timeline="2" key="5" z_index="4" />
+          <object_ref id="5" timeline="3" key="5" z_index="5" />
+          <object_ref id="6" timeline="4" key="5" z_index="6" />
+          <object_ref id="7" timeline="5" key="5" z_index="7" />
+          <object_ref id="8" timeline="6" key="5" z_index="8" />
+          <object_ref id="9" timeline="7" key="5" z_index="9" />
+          <object_ref id="10" timeline="8" key="5" z_index="10" />
+          <object_ref id="11" timeline="9" key="5" z_index="11" />
+          <object_ref id="12" timeline="10" key="5" z_index="12" />
+        </key>
+      </mainline>
+      <timeline id="0" name="film_passage">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="10" x="0" y="100" scale_x="0.3125" scale_y="0.347656" />
+        </key>
+        <key id="1" time="50" curve_type="instant">
+          <object folder="0" file="9" x="0" y="100" scale_x="0.3125" scale_y="0.347656" />
+        </key>
+        <key id="2" time="100" curve_type="instant">
+          <object folder="0" file="8" x="0" y="100" scale_x="0.3125" scale_y="0.347656" />
+        </key>
+        <key id="3" time="150" curve_type="instant">
+          <object folder="0" file="7" x="0" y="100" scale_x="0.3125" scale_y="0.347656" />
+        </key>
+        <key id="4" time="200" curve_type="instant">
+          <object folder="0" file="6" x="0" y="100" scale_x="0.3125" scale_y="0.347656" />
+        </key>
+      </timeline>
+      <timeline id="1" name="frame">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="0" x="0" y="100" scale_x="0.390625" scale_y="0.390625" />
+        </key>
+        <key id="1" time="50" curve_type="instant">
+          <object folder="0" file="0" x="0" y="100" scale_x="0.390625" scale_y="0.390625" />
+        </key>
+        <key id="2" time="100" curve_type="instant">
+          <object folder="0" file="0" x="0" y="100" scale_x="0.390625" scale_y="0.390625" />
+        </key>
+        <key id="3" time="150" curve_type="instant">
+          <object folder="0" file="0" x="0" y="100" scale_x="0.390625" scale_y="0.390625" />
+        </key>
+        <key id="4" time="200" curve_type="instant">
+          <object folder="0" file="0" x="0" y="100" scale_x="0.390625" scale_y="0.390625" />
+        </key>
+        <key id="5" time="250" curve_type="instant">
+          <object folder="0" file="0" x="0" y="100" scale_x="0.390625" scale_y="0.390625" />
+        </key>
+      </timeline>
+      <timeline id="2" name="join_west_lower">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="13" x="-46.48" y="50" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="1" time="50" curve_type="instant">
+          <object folder="0" file="13" x="-46.48" y="50" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="2" time="100" curve_type="instant">
+          <object folder="0" file="13" x="-46.48" y="50" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="3" time="150" curve_type="instant">
+          <object folder="0" file="13" x="-46.48" y="50" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="4" time="200" curve_type="instant">
+          <object folder="0" file="13" x="-46.48" y="50" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="5" time="250" curve_type="instant">
+          <object folder="0" file="13" x="-46.48" y="50" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="3" name="join_west_upper">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="14" x="-46.48" y="150" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="1" time="50" curve_type="instant">
+          <object folder="0" file="14" x="-46.48" y="150" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="2" time="100" curve_type="instant">
+          <object folder="0" file="14" x="-46.48" y="150" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="3" time="150" curve_type="instant">
+          <object folder="0" file="14" x="-46.48" y="150" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="4" time="200" curve_type="instant">
+          <object folder="0" file="14" x="-46.48" y="150" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="5" time="250" curve_type="instant">
+          <object folder="0" file="14" x="-46.48" y="150" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="4" name="join_east_lower">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="15" x="46.48" y="50" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="1" time="50" curve_type="instant">
+          <object folder="0" file="15" x="46.48" y="50" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="2" time="100" curve_type="instant">
+          <object folder="0" file="15" x="46.48" y="50" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="3" time="150" curve_type="instant">
+          <object folder="0" file="15" x="46.48" y="50" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="4" time="200" curve_type="instant">
+          <object folder="0" file="15" x="46.48" y="50" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="5" time="250" curve_type="instant">
+          <object folder="0" file="15" x="46.48" y="50" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="5" name="join_east_upper">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="16" x="46.48" y="150" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="1" time="50" curve_type="instant">
+          <object folder="0" file="16" x="46.48" y="150" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="2" time="100" curve_type="instant">
+          <object folder="0" file="16" x="46.48" y="150" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="3" time="150" curve_type="instant">
+          <object folder="0" file="16" x="46.48" y="150" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="4" time="200" curve_type="instant">
+          <object folder="0" file="16" x="46.48" y="150" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="5" time="250" curve_type="instant">
+          <object folder="0" file="16" x="46.48" y="150" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="6" name="join_south">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="17" x="0" y="3.52" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="1" time="50" curve_type="instant">
+          <object folder="0" file="17" x="0" y="3.52" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="2" time="100" curve_type="instant">
+          <object folder="0" file="17" x="0" y="3.52" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="3" time="150" curve_type="instant">
+          <object folder="0" file="17" x="0" y="3.52" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="4" time="200" curve_type="instant">
+          <object folder="0" file="17" x="0" y="3.52" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="5" time="250" curve_type="instant">
+          <object folder="0" file="17" x="0" y="3.52" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="7" name="join_north">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="18" x="0" y="196.48" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="1" time="50" curve_type="instant">
+          <object folder="0" file="18" x="0" y="196.48" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="2" time="100" curve_type="instant">
+          <object folder="0" file="18" x="0" y="196.48" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="3" time="150" curve_type="instant">
+          <object folder="0" file="18" x="0" y="196.48" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="4" time="200" curve_type="instant">
+          <object folder="0" file="18" x="0" y="196.48" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="5" time="250" curve_type="instant">
+          <object folder="0" file="18" x="0" y="196.48" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="8" name="status">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="19" x="41" y="138" scale_x="0.29" scale_y="0.42" />
+        </key>
+        <key id="1" time="50" curve_type="instant">
+          <object folder="0" file="19" x="41" y="138" scale_x="0.29" scale_y="0.42" />
+        </key>
+        <key id="2" time="100" curve_type="instant">
+          <object folder="0" file="19" x="41" y="138" scale_x="0.29" scale_y="0.42" />
+        </key>
+        <key id="3" time="150" curve_type="instant">
+          <object folder="0" file="19" x="41" y="138" scale_x="0.29" scale_y="0.42" />
+        </key>
+        <key id="4" time="200" curve_type="instant">
+          <object folder="0" file="19" x="41" y="138" scale_x="0.29" scale_y="0.42" />
+        </key>
+        <key id="5" time="250" curve_type="instant">
+          <object folder="0" file="19" x="41" y="138" scale_x="0.29" scale_y="0.42" />
+        </key>
+      </timeline>
+      <timeline id="9" name="flow_forward">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="20" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="1" time="50" curve_type="instant">
+          <object folder="0" file="20" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="2" time="100" curve_type="instant">
+          <object folder="0" file="20" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="3" time="150" curve_type="instant">
+          <object folder="0" file="20" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="4" time="200" curve_type="instant">
+          <object folder="0" file="20" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="5" time="250" curve_type="instant">
+          <object folder="0" file="20" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="10" name="flow_reverse">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="21" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="1" time="50" curve_type="instant">
+          <object folder="0" file="21" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="2" time="100" curve_type="instant">
+          <object folder="0" file="21" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="3" time="150" curve_type="instant">
+          <object folder="0" file="21" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="4" time="200" curve_type="instant">
+          <object folder="0" file="21" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+        <key id="5" time="250" curve_type="instant">
+          <object folder="0" file="21" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="11" name="film_quiet">
+        <key id="0" time="50" curve_type="instant">
+          <object folder="0" file="1" x="0" y="100" scale_x="0.3125" scale_y="0.695312" />
+        </key>
+        <key id="1" time="100" curve_type="instant">
+          <object folder="0" file="2" x="0" y="100" scale_x="0.3125" scale_y="0.695312" />
+        </key>
+        <key id="2" time="150" curve_type="instant">
+          <object folder="0" file="3" x="0" y="100" scale_x="0.3125" scale_y="0.695312" />
+        </key>
+        <key id="3" time="200" curve_type="instant">
+          <object folder="0" file="4" x="0" y="100" scale_x="0.3125" scale_y="0.695312" />
+        </key>
+        <key id="4" time="250" curve_type="instant">
+          <object folder="0" file="5" x="0" y="100" scale_x="0.3125" scale_y="0.695312" />
+        </key>
+      </timeline>
+      <timeline id="12" name="clamp_left">
+        <key id="0" time="50" curve_type="instant">
+          <object folder="0" file="11" x="-36" y="100" scale_x="0.028125" scale_y="0.09" />
+        </key>
+        <key id="1" time="100" curve_type="instant">
+          <object folder="0" file="11" x="-36" y="100" scale_x="0.05625" scale_y="0.09" />
+        </key>
+        <key id="2" time="150" curve_type="instant">
+          <object folder="0" file="11" x="-36" y="100" scale_x="0.084375" scale_y="0.09" />
+        </key>
+        <key id="3" time="200" curve_type="instant">
+          <object folder="0" file="11" x="-36" y="100" scale_x="0.1125" scale_y="0.09" />
+        </key>
+        <key id="4" time="250" curve_type="instant">
+          <object folder="0" file="11" x="-36" y="100" scale_x="0.140625" scale_y="0.09" />
+        </key>
+      </timeline>
+      <timeline id="13" name="clamp_right">
+        <key id="0" time="50" curve_type="instant">
+          <object folder="0" file="12" x="36" y="100" scale_x="0.028125" scale_y="0.09" />
+        </key>
+        <key id="1" time="100" curve_type="instant">
+          <object folder="0" file="12" x="36" y="100" scale_x="0.05625" scale_y="0.09" />
+        </key>
+        <key id="2" time="150" curve_type="instant">
+          <object folder="0" file="12" x="36" y="100" scale_x="0.084375" scale_y="0.09" />
+        </key>
+        <key id="3" time="200" curve_type="instant">
+          <object folder="0" file="12" x="36" y="100" scale_x="0.1125" scale_y="0.09" />
+        </key>
+        <key id="4" time="250" curve_type="instant">
+          <object folder="0" file="12" x="36" y="100" scale_x="0.140625" scale_y="0.09" />
+        </key>
+      </timeline>
+    </animation>
+    <animation id="4" name="idle" length="50" interval="50" looping="false">
+      <mainline>
+        <key id="0" time="0">
+          <object_ref id="0" timeline="0" key="0" z_index="0" />
+          <object_ref id="1" timeline="1" key="0" z_index="1" />
+          <object_ref id="2" timeline="2" key="0" z_index="2" />
+          <object_ref id="3" timeline="3" key="0" z_index="3" />
+          <object_ref id="4" timeline="4" key="0" z_index="4" />
+          <object_ref id="5" timeline="5" key="0" z_index="5" />
+          <object_ref id="6" timeline="6" key="0" z_index="6" />
+        </key>
+      </mainline>
+      <timeline id="0" name="film_quiet">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="5" x="0" y="100" scale_x="0.3125" scale_y="0.695312" />
+        </key>
+      </timeline>
+      <timeline id="1" name="frame">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="0" x="0" y="100" scale_x="0.390625" scale_y="0.390625" />
+        </key>
+      </timeline>
+      <timeline id="2" name="clamp_left">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="11" x="-36" y="100" scale_x="0.140625" scale_y="0.09" />
+        </key>
+      </timeline>
+      <timeline id="3" name="clamp_right">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="12" x="36" y="100" scale_x="0.140625" scale_y="0.09" />
+        </key>
+      </timeline>
+      <timeline id="4" name="status">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="19" x="41" y="138" scale_x="0.29" scale_y="0.42" />
+        </key>
+      </timeline>
+      <timeline id="5" name="flow_forward">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="20" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="6" name="flow_reverse">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="21" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+    </animation>
+    <animation id="5" name="place" length="50" interval="50" looping="false">
+      <mainline>
+        <key id="0" time="0">
+          <object_ref id="0" timeline="0" key="0" z_index="0" />
+          <object_ref id="1" timeline="1" key="0" z_index="1" />
+          <object_ref id="2" timeline="2" key="0" z_index="2" />
+          <object_ref id="3" timeline="3" key="0" z_index="3" />
+          <object_ref id="4" timeline="4" key="0" z_index="4" />
+          <object_ref id="5" timeline="5" key="0" z_index="5" />
+          <object_ref id="6" timeline="6" key="0" z_index="6" />
+        </key>
+      </mainline>
+      <timeline id="0" name="film_quiet">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="5" x="0" y="100" scale_x="0.3125" scale_y="0.695312" />
+        </key>
+      </timeline>
+      <timeline id="1" name="frame">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="0" x="0" y="100" scale_x="0.390625" scale_y="0.390625" />
+        </key>
+      </timeline>
+      <timeline id="2" name="clamp_left">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="11" x="-36" y="100" scale_x="0.140625" scale_y="0.09" />
+        </key>
+      </timeline>
+      <timeline id="3" name="clamp_right">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="12" x="36" y="100" scale_x="0.140625" scale_y="0.09" />
+        </key>
+      </timeline>
+      <timeline id="4" name="status">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="19" x="41" y="138" scale_x="0.29" scale_y="0.42" />
+        </key>
+      </timeline>
+      <timeline id="5" name="flow_forward">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="20" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="6" name="flow_reverse">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="21" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+    </animation>
+    <animation id="6" name="off" length="50" interval="50" looping="false">
+      <mainline>
+        <key id="0" time="0">
+          <object_ref id="0" timeline="0" key="0" z_index="0" />
+          <object_ref id="1" timeline="1" key="0" z_index="1" />
+          <object_ref id="2" timeline="2" key="0" z_index="2" />
+          <object_ref id="3" timeline="3" key="0" z_index="3" />
+          <object_ref id="4" timeline="4" key="0" z_index="4" />
+          <object_ref id="5" timeline="5" key="0" z_index="5" />
+          <object_ref id="6" timeline="6" key="0" z_index="6" />
+        </key>
+      </mainline>
+      <timeline id="0" name="film_quiet">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="5" x="0" y="100" scale_x="0.3125" scale_y="0.695312" />
+        </key>
+      </timeline>
+      <timeline id="1" name="frame">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="0" x="0" y="100" scale_x="0.390625" scale_y="0.390625" />
+        </key>
+      </timeline>
+      <timeline id="2" name="clamp_left">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="11" x="-36" y="100" scale_x="0.140625" scale_y="0.09" />
+        </key>
+      </timeline>
+      <timeline id="3" name="clamp_right">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="12" x="36" y="100" scale_x="0.140625" scale_y="0.09" />
+        </key>
+      </timeline>
+      <timeline id="4" name="status">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="19" x="41" y="138" scale_x="0.29" scale_y="0.42" />
+        </key>
+      </timeline>
+      <timeline id="5" name="flow_forward">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="20" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="6" name="flow_reverse">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="21" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+    </animation>
+    <animation id="7" name="on" length="50" interval="50" looping="false">
+      <mainline>
+        <key id="0" time="0">
+          <object_ref id="0" timeline="0" key="0" z_index="0" />
+          <object_ref id="1" timeline="1" key="0" z_index="1" />
+          <object_ref id="2" timeline="2" key="0" z_index="2" />
+          <object_ref id="3" timeline="3" key="0" z_index="3" />
+          <object_ref id="4" timeline="4" key="0" z_index="4" />
+          <object_ref id="5" timeline="5" key="0" z_index="5" />
+          <object_ref id="6" timeline="6" key="0" z_index="6" />
+        </key>
+      </mainline>
+      <timeline id="0" name="film_quiet">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="5" x="0" y="100" scale_x="0.3125" scale_y="0.695312" />
+        </key>
+      </timeline>
+      <timeline id="1" name="frame">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="0" x="0" y="100" scale_x="0.390625" scale_y="0.390625" />
+        </key>
+      </timeline>
+      <timeline id="2" name="clamp_left">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="11" x="-36" y="100" scale_x="0.140625" scale_y="0.09" />
+        </key>
+      </timeline>
+      <timeline id="3" name="clamp_right">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="12" x="36" y="100" scale_x="0.140625" scale_y="0.09" />
+        </key>
+      </timeline>
+      <timeline id="4" name="status">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="19" x="41" y="138" scale_x="0.29" scale_y="0.42" />
+        </key>
+      </timeline>
+      <timeline id="5" name="flow_forward">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="20" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+      <timeline id="6" name="flow_reverse">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="21" x="36" y="134" scale_x="0.22" scale_y="0.22" />
+        </key>
+      </timeline>
+    </animation>
+    <animation id="8" name="ui" length="50" interval="50" looping="false">
+      <mainline>
+        <key id="0" time="0">
+          <object_ref id="0" timeline="0" key="0" z_index="0" />
+        </key>
+      </mainline>
+      <timeline id="0" name="ui">
+        <key id="0" time="0" curve_type="instant">
+          <object folder="0" file="22" x="0" y="0" />
+        </key>
+      </timeline>
+    </animation>
+  </entity>
+</spriter_data>

@@ -1,0 +1,53 @@
+{
+  "tile_size": [
+    100,
+    100
+  ],
+  "door_size": [
+    100,
+    200
+  ],
+  "film_alpha_multiplier": 0.68,
+  "tile_masks": 16,
+  "door_transition_frames": 6,
+  "sources": [
+    "hardware-sheet.png",
+    "film-sheet.png"
+  ],
+  "anims": {
+    "baiye_membrane_tile": [
+      "tile_0",
+      "tile_1",
+      "tile_2",
+      "tile_3",
+      "tile_4",
+      "tile_5",
+      "tile_6",
+      "tile_7",
+      "tile_8",
+      "tile_9",
+      "tile_10",
+      "tile_11",
+      "tile_12",
+      "tile_13",
+      "tile_14",
+      "tile_15",
+      "idle",
+      "place",
+      "off",
+      "on",
+      "ui"
+    ],
+    "baiye_membrane_door": [
+      "closed",
+      "open",
+      "opening",
+      "closing",
+      "idle",
+      "place",
+      "off",
+      "on",
+      "ui"
+    ]
+  }
+}
