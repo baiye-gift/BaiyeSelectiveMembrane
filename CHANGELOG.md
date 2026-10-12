@@ -1,6 +1,6 @@
 # 开发变更
 
-## 2026-10-13 — 独立 GitHub 源码仓库发布准备
+## 2026-10-13 — 独立 GitHub 源码仓库发布
 
 用户确认新建公开 `baiye-gift/BaiyeSelectiveMembrane` 并回复“上传”。本次在独立导出副本操作，原工作区和已安装mod只读取，不改变原仓库Git状态或运行资源。导出87个源码/测试/原创素材/工具/文档文件，逐文件SHA-256与原文件一致；排除bin、obj、dist、本机审计报告，无游戏/依赖DLL。
 
@@ -8,7 +8,9 @@
 
 上传前检查：`dotnet build SelectiveMembrane.csproj -c Release`退出0，0错误、2个既有MSB3277程序集冲突警告；`dotnet run --project tests/Regression -c Release`的57项逻辑回归通过；`dotnet build tests/Native -c Release`及执行MembraneNative.dll退出0，23项本机原生托管契约通过（不运行Unity/SimDLL）；带Pillow的Python执行`tools/verify-assets.py`通过2549项素材断言。git diff --cached --check通过，88暂存文件无bin/obj/dist、DLL/PDB/存档/密钥或本机审计报告；暂存文本凭据/私钥特征扫描无匹配，仅Git行尾转换提示。
 
-当前处于推送阶段，远端创建和推送结果将在完成后补入本条。未创建GitHub Release，未安装或启动游戏；真实输运、旧存档、UI及Unity/SimDLL验收仍待PLAYTEST。
+已创建公开仓库 https://github.com/baiye-gift/BaiyeSelectiveMembrane ，main默认分支，Issues已启用；反馈入口 https://github.com/baiye-gift/BaiyeSelectiveMembrane/issues 。首个源码提交`9396879d88d7671f9b7c1ae1a4fb46082e5bf952`成功推送，GitHub API核对远端SHA与本地一致，88个远端文件路径及Git blob SHA全部一致，Issues端点可访问。完成后补齐本日志并推送独立文档提交，src/tests/anim/art/tools不变。
+
+原分子筛工作区87份导出源文件哈希与操作前一致，未修改原项目、父仓库Git状态或已安装mod；独立导出副本保留便于后续检视。未创建GitHub Release，未安装或启动游戏；真实输运、旧存档、UI及Unity/SimDLL验收仍待PLAYTEST。
 
 ## 2026-10-06 — 0.1.3 本地安装
 
